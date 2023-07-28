@@ -83,3 +83,7 @@ main .text button:hover{
   background-color: #c0b3e4;
   color: #3f345f;
 }
+
+.hide{
+  display: none;
+}
