@@ -87,3 +87,27 @@ main .text button:hover{
 .hide{
   display: none;
 }
+
+@media (min-width: 769px) {
+
+main{
+  height: 100%;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 1.3rem;
+}
+
+main .item{
+  width: 50%;
+}
+
+main .item > img{
+  max-width: 51.2rem;
+}
+
+main .text{
+  width: 50%;
+}
+
+}
